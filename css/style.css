@@ -1,0 +1,185 @@
+@import url(https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900);
+
+:root{
+  --dark-blue: #2A344F;
+}
+
+html {
+  font-family: 'Montserrat' !important;
+}
+
+.proc-80 {
+height:90%;
+  display: block;
+}
+
+.proc-20 {
+  height:10%;
+  display: block;
+}
+
+.ul-no-decoration {
+  list-style: none;
+}
+
+/* ################## Header ################## */
+#header-lang a img{
+  max-width: 2rem;
+}
+#header-number {
+  margin: 0 2rem 0 2rem;
+  color: var(--dark-blue);
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+
+/* ################## Navigation ################## */
+#navigation {
+  background: rgb(211,215,231);
+}
+
+#nav-glass-logo{
+  max-width: 10rem;
+}
+
+.nav-link {
+  color: var(--dark-blue) !important;
+  font-weight: 400;
+  font-size: 1.2rem;
+}
+
+.nav-link:hover {
+  text-decoration: underline;
+}
+
+
+/* ################## Index-top ################## */
+#index-top-pic {
+  background-image:linear-gradient(to bottom, rgba(0, 0, 0, 0.20), rgba(42,52,79, 0.35)),url("/css/images/building.jpeg");
+  min-height: 350px;
+  max-height: 350px;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: 50% 35%;
+  color: white;
+}
+
+#banner-text {
+  font-size: 2em;
+  font-weight: 600;
+}
+
+#banner-text-btn {
+  font-size: 1.2em;
+  font-weight: 400;
+}
+
+#mini-offer-img {
+  width: 5em;
+  height: 5em;
+}
+
+#light-bg {
+  background-color: #DBE1E7;
+}
+
+#offer-backgrond {
+  background: rgb(12,47,66);
+  background: linear-gradient(90deg, rgba(12,47,66,1) 0%, rgba(16,58,82,1) 1%, rgba(12,47,66,1) 100%);
+  width: 100%;
+  object-fit: cover;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 23vw;
+  object-fit: cover;
+}
+
+.mini-about-logo img{
+  background-color: #214A6B;
+  border-radius: 50%;
+  width: 6em;
+  height: 6em;
+  padding: 0.8em;
+  box-shadow: 1px 4px 8px grey;
+}
+
+#mapid {
+  min-height: 400px;
+}
+
+
+
+/* ################## Contact ################## */
+.cont-loc-logo {
+  width: 3em;
+  height: 3em;
+}
+
+
+/* ################## Footer ################## */
+.footer-content-list{
+  list-style: none;
+}
+
+.footer-social-icon a img{
+  width: 4em;
+  height: 4em;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+@media(max-width: 800px) {
+  .card-img-top {
+      height: 40vw;
+  }
+
+  .mini-about-logo img {
+    width: 4em;
+    height: 4em;
+  }
+
+  #banner-text {
+    font-size: 1.4em;
+    font-weight: 500;
+  }
+
+  #banner-text-btn {
+    font-size: 1em;
+    font-weight: 400;
+  }
+}
+
+@media(max-width: 500px){
+  h1{
+    font-size: 1.8rem;
+    font-weight: 600;
+  }
+  h2{
+    font-size: 1.6rem;
+    font-weight: 500;
+  }
+  h3{
+    font-size: 1.4rem;
+    font-weight: 600;
+  }
+  h4{
+    font-size: 1.3rem;
+    font-weight: 600;
+  }
+  #about-mini{
+    font-size: 1.1rem;
+    font-weight: 500;
+  }
+}
