@@ -26,7 +26,6 @@ include( $path . "/inc/global.php");
     <link rel="stylesheet" href="/css/style.css">
     <!-- Bootstrap -->
     <link rel="stylesheet" href="/css/bootstrap.css">
-    <link rel="stylesheet" href="/css/style.css">
 
     <!-- Map -->
     <link rel="stylesheet" href="https://unpkg.com/leaflet@1.6.0/dist/leaflet.css"
