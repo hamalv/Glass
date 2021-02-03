@@ -7,7 +7,7 @@ $path = $_SERVER['DOCUMENT_ROOT'];
 
 if(isset($_POST['submit_email'])){
     $from = "web@janisf.id.lv";
-    $to = "web@janisf.id.lv";
+    $to = "info@glas.lv";
 
     $reply_to = $_POST['email'];
     $phone = $_POST['phone'];
